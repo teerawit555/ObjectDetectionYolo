@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, #434343, #000000); /* ไล่สีเทาเข้มถึงดำ */
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex; /* ใช้ Flexbox */
+    justify-content: center; /* จัดให้อยู่กลางในแนวนอน */
+    align-items: center; /* จัดให้อยู่กลางในแนวตั้ง */
+    height: 100vh; /* ให้ Body เต็มหน้าจอ */
+    margin: 0; /* ลบ Margin ของ Body */
+}
+
+.container {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+h1 {
+    font-size: 2.5rem; /* ลดขนาดฟอนต์ลง */
+    margin-bottom: 20px; /* ลดระยะห่างด้านล่าง */
+    text-align: center; /* จัดให้อยู่ตรงกลาง */
+    word-wrap: break-word; /* ตัดคำถ้าหัวข้อล้น */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    line-height: 1.2; /* เพิ่มระยะห่างระหว่างบรรทัด */
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #ffeb3b;
+}
